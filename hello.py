@@ -3,6 +3,6 @@
 # configure python linter
 msg = "hello world"
 msg.capitalize()
-
-print msg
+# below throws linting error on save
+# print msg
 print(msg)
